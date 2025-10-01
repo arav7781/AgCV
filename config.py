@@ -1,0 +1,7 @@
+import os
+
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+LANGSMITH_API_KEY = os.getenv("LANGSMITH_API_KEY")
+LANGSMITH_TRACING = "true"
+LANGSMITH_PROJECT = os.getenv("LANGSMITH_PROJECT")
